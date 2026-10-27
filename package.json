@@ -1,0 +1,11 @@
+{
+  "name": "badminton-score-tracker",
+  "version": "1.0.0",
+  "description": "Badminton Score Tracker with Elo Rating Leaderboard",
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build && npm --prefix server install",
+    "start": "node server/src/server.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev"
+  }
+}
